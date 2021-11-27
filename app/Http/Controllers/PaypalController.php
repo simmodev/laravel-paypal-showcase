@@ -34,9 +34,6 @@ class PaypalController extends Controller
                 ]
             ]
         ]);
-
-        //Save created order to database
-        dd($order);
         
         return response()->json($order);
     }
